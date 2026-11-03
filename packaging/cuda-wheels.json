@@ -1,0 +1,38 @@
+[
+  {
+    "profile": "cu126",
+    "package": "torch",
+    "version": "2.9.1",
+    "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.9.1%2Bcu126-cp312-cp312-win_amd64.whl",
+    "sha256": "f2f1c68c7957ed8b6b56fc450482eb3fa53947fb74838b03834a1760451cf60f",
+    "filename": "torch-2.9.1+cu126-cp312-cp312-win_amd64.whl",
+    "bytes": "2584508946"
+  },
+  {
+    "profile": "cu126",
+    "package": "torchvision",
+    "version": "0.24.1",
+    "url": "https://download-r2.pytorch.org/whl/cu126/torchvision-0.24.1%2Bcu126-cp312-cp312-win_amd64.whl",
+    "sha256": "54c1902bad62bd113f66dd3cc0368aa4d0005837100d3ab9dc823aebf945ead0",
+    "filename": "torchvision-0.24.1+cu126-cp312-cp312-win_amd64.whl",
+    "bytes": "8791048"
+  },
+  {
+    "profile": "cu128",
+    "package": "torch",
+    "version": "2.9.1",
+    "url": "https://download-r2.pytorch.org/whl/cu128/torch-2.9.1%2Bcu128-cp312-cp312-win_amd64.whl",
+    "sha256": "3a01f0b64c10a82d444d9fd06b3e8c567b1158b76b2764b8f51bfd8f535064b0",
+    "filename": "torch-2.9.1+cu128-cp312-cp312-win_amd64.whl",
+    "bytes": "2862033275"
+  },
+  {
+    "profile": "cu128",
+    "package": "torchvision",
+    "version": "0.24.1",
+    "url": "https://download-r2.pytorch.org/whl/cu128/torchvision-0.24.1%2Bcu128-cp312-cp312-win_amd64.whl",
+    "sha256": "33ecea57afa1daeedfed443a8a0cb8e4b0b403fdf18c2a328ba6f9069d403384",
+    "filename": "torchvision-0.24.1+cu128-cp312-cp312-win_amd64.whl",
+    "bytes": "9630268"
+  }
+]

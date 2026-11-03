@@ -1,0 +1,947 @@
+{
+  "brandSub": [
+    "影像模型工作台",
+    "影像模型工作台",
+    "VISION MODEL WORKSPACE"
+  ],
+  "localWorkspace": [
+    "本機工作空間",
+    "本地工作空间",
+    "Local workspace"
+  ],
+  "currentProject": [
+    "目前專案",
+    "当前项目",
+    "CURRENT PROJECT"
+  ],
+  "newProject": [
+    "建立專案",
+    "新建项目",
+    "New project"
+  ],
+  "workflow": [
+    "工作流程",
+    "工作流程",
+    "WORKFLOW"
+  ],
+  "overview": [
+    "專案總覽",
+    "项目总览",
+    "Overview"
+  ],
+  "annotate": [
+    "圖片與標註",
+    "图片与标注",
+    "Images & labels"
+  ],
+  "train": [
+    "訓練中心",
+    "训练中心",
+    "Training"
+  ],
+  "models": [
+    "模型管理",
+    "模型管理",
+    "Models"
+  ],
+  "localHint": [
+    "圖片、標註與模型儲存在此電腦。",
+    "图片、标注与模型保存在此电脑。",
+    "Images, labels and models stay on this computer."
+  ],
+  "workspace": [
+    "工作空間",
+    "工作空间",
+    "Workspace"
+  ],
+  "localOnly": [
+    "本機執行",
+    "本地运行",
+    "Runs locally"
+  ],
+  "engineReady": [
+    "YOLO 引擎已安裝",
+    "YOLO 引擎已安装",
+    "YOLO engine installed"
+  ],
+  "engineNotReady": [
+    "YOLO 引擎尚未安裝",
+    "YOLO 引擎尚未安装",
+    "YOLO engine not installed"
+  ],
+  "engineSetup": [
+    "標註功能已可使用。自動標註與訓練需先執行安裝指令，完成後重新啟動：",
+    "标注功能已可使用。自动标注与训练需先运行安装命令，完成后重新启动：",
+    "Annotation is ready. For auto-labeling and training, install the engine, then restart:"
+  ],
+  "overviewEyebrow": [
+    "專案工作台",
+    "项目工作台",
+    "YOUR WORKSPACE"
+  ],
+  "overviewTitle": [
+    "從圖片，走到模型。",
+    "从图片，走到模型。",
+    "From images to intelligence."
+  ],
+  "overviewDesc": [
+    "整理資料、精準標註、訓練模型，每一步都在這裡。",
+    "整理数据、精准标注、训练模型，每一步都在这里。",
+    "Curate your dataset, refine labels and train your next model — in one place."
+  ],
+  "importImages": [
+    "匯入圖片",
+    "导入图片",
+    "Import images"
+  ],
+  "totalImages": [
+    "圖片總數",
+    "图片总数",
+    "Total images"
+  ],
+  "reviewedCount": [
+    "已審核圖片",
+    "已审核图片",
+    "Reviewed images"
+  ],
+  "pendingCount": [
+    "待審核標註",
+    "待审核标注",
+    "Awaiting review"
+  ],
+  "modelCount": [
+    "模型版本",
+    "模型版本",
+    "Model versions"
+  ],
+  "pipelineTitle": [
+    "你的模型建立流程",
+    "你的模型创建流程",
+    "Your model pipeline"
+  ],
+  "pipelineHint": [
+    "四個步驟，完成一個版本",
+    "四个步骤，完成一个版本",
+    "Four steps. One complete workflow."
+  ],
+  "stepImport": [
+    "匯入圖片",
+    "导入图片",
+    "Import images"
+  ],
+  "stepImportDesc": [
+    "建立專屬影像資料集",
+    "创建专属图像数据集",
+    "Build your image dataset"
+  ],
+  "stepLabel": [
+    "標註與審核",
+    "标注与审核",
+    "Label & review"
+  ],
+  "stepLabelDesc": [
+    "人工標註或 AI 輔助",
+    "人工标注或 AI 辅助",
+    "Annotate with AI assistance"
+  ],
+  "stepTrain": [
+    "訓練模型",
+    "训练模型",
+    "Train a model"
+  ],
+  "stepTrainDesc": [
+    "建立可追溯訓練版本",
+    "创建可追溯训练版本",
+    "Create a reproducible run"
+  ],
+  "stepExport": [
+    "命名與匯出",
+    "命名与导出",
+    "Name & export"
+  ],
+  "stepExportDesc": [
+    "打包模型與訓練資訊",
+    "打包模型与训练信息",
+    "Package weights and metadata"
+  ],
+  "dataset": [
+    "影像資料集",
+    "图像数据集",
+    "IMAGE DATASET"
+  ],
+  "importTitle": [
+    "讓第一張圖片，成為起點。",
+    "让第一张图片，成为起点。",
+    "Great models start with good data."
+  ],
+  "importDesc": [
+    "匯入產品照片，再前往工作台建立標註。",
+    "导入产品照片，再前往工作台创建标注。",
+    "Import product images and head to the annotation workspace."
+  ],
+  "dropTitle": [
+    "拖曳圖片到這裡",
+    "拖放图片到这里",
+    "Drop your images here"
+  ],
+  "dropHint": [
+    "或點擊選擇檔案，每張上限 25 MB",
+    "或点击选择文件，每张上限 25 MB",
+    "or click to browse · up to 25 MB per image"
+  ],
+  "projectInfo": [
+    "專案資訊",
+    "项目信息",
+    "Project details"
+  ],
+  "detection": [
+    "物件偵測",
+    "目标检测",
+    "OBJECT DETECTION"
+  ],
+  "projectName": [
+    "專案名稱",
+    "项目名称",
+    "Project name"
+  ],
+  "station": [
+    "站點",
+    "站点",
+    "Station"
+  ],
+  "classes": [
+    "標註類別",
+    "标注类别",
+    "Classes"
+  ],
+  "created": [
+    "建立日期",
+    "创建日期",
+    "Created"
+  ],
+  "noProject": [
+    "尚未建立專案",
+    "尚未创建项目",
+    "No project yet"
+  ],
+  "noProjectHint": [
+    "建立專案後，即可匯入圖片並開始標註。",
+    "创建项目后，即可导入图片并开始标注。",
+    "Create a project to import images and start labeling."
+  ],
+  "recentJobs": [
+    "最近任務",
+    "最近任务",
+    "Recent activity"
+  ],
+  "viewAll": [
+    "查看全部 →",
+    "查看全部 →",
+    "View all →"
+  ],
+  "noJobs": [
+    "尚無任務，完成標註後開始第一次訓練。",
+    "暂无任务，完成标注后开始第一次训练。",
+    "No runs yet. Review your labels to start your first training run."
+  ],
+  "annotateEyebrow": [
+    "資料準備",
+    "数据准备",
+    "DATA PREPARATION"
+  ],
+  "annotateTitle": [
+    "圖片與標註",
+    "图片与标注",
+    "Annotation workspace"
+  ],
+  "annotateDesc": [
+    "框選目標、修正 AI 建議，再確認每一張圖片。",
+    "框选目标、修正 AI 建议，再确认每一张图片。",
+    "Draw objects, refine AI suggestions and review every image."
+  ],
+  "autoLabel": [
+    "自動標註",
+    "自动标注",
+    "Auto-label"
+  ],
+  "imageList": [
+    "圖片清單",
+    "图片列表",
+    "Images"
+  ],
+  "searchImages": [
+    "搜尋檔名…",
+    "搜索文件名…",
+    "Search filenames…"
+  ],
+  "allImages": [
+    "全部圖片",
+    "全部图片",
+    "All images"
+  ],
+  "unlabeled": [
+    "未標註",
+    "未标注",
+    "Unlabeled"
+  ],
+  "draft": [
+    "草稿",
+    "草稿",
+    "Draft"
+  ],
+  "pending": [
+    "AI 待審核",
+    "AI 待审核",
+    "AI · pending"
+  ],
+  "reviewed": [
+    "已審核",
+    "已审核",
+    "Reviewed"
+  ],
+  "empty": [
+    "已確認無目標",
+    "已确认无目标",
+    "Verified empty"
+  ],
+  "excluded": [
+    "已排除",
+    "已排除",
+    "Excluded"
+  ],
+  "drawTool": [
+    "畫框 [B]",
+    "画框 [B]",
+    "Draw [B]"
+  ],
+  "selectTool": [
+    "選取／移動 [V]",
+    "选择／移动 [V]",
+    "Select / move [V]"
+  ],
+  "undo": [
+    "復原",
+    "撤销",
+    "Undo"
+  ],
+  "fit": [
+    "符合畫面",
+    "适应画面",
+    "Fit"
+  ],
+  "canvasEmpty": [
+    "匯入圖片，開始標註",
+    "导入图片，开始标注",
+    "Import images to start labeling"
+  ],
+  "boxes": [
+    "物件框",
+    "目标框",
+    "Objects"
+  ],
+  "noBoxes": [
+    "尚無物件框",
+    "暂无目标框",
+    "No objects yet"
+  ],
+  "deleteBox": [
+    "刪除物件框",
+    "删除目标框",
+    "Delete object"
+  ],
+  "aiCandidates": [
+    "AI 候選框",
+    "AI 候选框",
+    "AI suggestions"
+  ],
+  "candidateCount": [
+    "{count} 個候選框",
+    "{count} 个候选框",
+    "{count} suggested boxes"
+  ],
+  "proposalHint": [
+    "檢查虛線框後，加入人工標註；零個候選框仍需人工確認。",
+    "检查虚线框后，加入人工标注；零个候选框仍需人工确认。",
+    "Inspect dashed boxes before adding them. Zero detections still require review."
+  ],
+  "acceptProposals": [
+    "加入候選框",
+    "添加候选框",
+    "Add suggestions"
+  ],
+  "reviewSave": [
+    "確認並儲存",
+    "确认并保存",
+    "Approve & save"
+  ],
+  "saveDraft": [
+    "儲存草稿",
+    "保存草稿",
+    "Save draft"
+  ],
+  "excludeImage": [
+    "排除此圖片",
+    "排除此图片",
+    "Exclude image"
+  ],
+  "shortcuts": [
+    "B 畫框 · V 選取 · Del 刪除選框 · Ctrl+Z 復原 · Ctrl+S 儲存 · ← → 換圖。按住 Alt 進入編輯狀態（點選/拖曳框移動或縮放）、放開回到畫框；滑鼠滾輪放大縮小畫布。",
+    "B 画框 · V 选择 · Del 删除选框 · Ctrl+Z 撤销 · Ctrl+S 保存 · ← → 换图。按住 Alt 进入编辑状态（点击/拖曳框移动或缩放）、放开回到画框；鼠标滚轮放大缩小画布。",
+    "B draw · V select · Del remove box · Ctrl+Z undo · Ctrl+S save · ← → navigate. Hold Alt to edit/select boxes, release to draw; mouse wheel zooms canvas."
+  ],
+  "saved": [
+    "已儲存",
+    "已保存",
+    "Saved"
+  ],
+  "unsaved": [
+    "尚未儲存",
+    "尚未保存",
+    "Unsaved changes"
+  ],
+  "imageDimensions": [
+    "{width} × {height} px",
+    "{width} × {height} px",
+    "{width} × {height} px"
+  ],
+  "trainEyebrow": [
+    "模型建立",
+    "模型创建",
+    "MODEL DEVELOPMENT"
+  ],
+  "trainTitle": [
+    "把標註，變成辨識能力。",
+    "把标注，变成识别能力。",
+    "Turn your labels into a model."
+  ],
+  "trainDesc": [
+    "保存資料快照，設定參數，追蹤每一次訓練。",
+    "保存数据快照，设置参数，追踪每一次训练。",
+    "Snapshot your dataset, configure a run and follow its progress."
+  ],
+  "exportDataset": [
+    "匯出 YOLO 資料集",
+    "导出 YOLO 数据集",
+    "Export YOLO dataset"
+  ],
+  "trainingConfig": [
+    "訓練設定",
+    "训练设置",
+    "Training configuration"
+  ],
+  "modelName": [
+    "模型版本名稱",
+    "模型版本名称",
+    "Model version name"
+  ],
+  "baseModel": [
+    "基礎模型",
+    "基础模型",
+    "Starting model"
+  ],
+  "epochs": [
+    "訓練輪數",
+    "训练轮数",
+    "Epochs"
+  ],
+  "imageSize": [
+    "影像尺寸",
+    "图像尺寸",
+    "Image size"
+  ],
+  "batchSize": [
+    "批次大小",
+    "批次大小",
+    "Batch size"
+  ],
+  "device": [
+    "執行裝置",
+    "运行设备",
+    "Device"
+  ],
+  "deviceAuto": [
+    "預設 GPU（無可用時自動切換 CPU）",
+    "默认 GPU（无可用时自动切换 CPU）",
+    "GPU Preferred (Auto-fallback to CPU)"
+  ],
+  "readiness": [
+    "{count} 張已審核，可用於訓練",
+    "{count} 张已审核，可用于训练",
+    "{count} reviewed images available"
+  ],
+  "splitHint": [
+    "至少需要 3 張已審核圖片及 1 個物件框。約 70 / 20 / 10 分為訓練、驗證、測試；小資料集比例會調整。連拍圖片請先去除近似影像，避免跨組洩漏。首次使用預訓練模型需要網路下載。",
+    "至少需要 3 张已审核图片及 1 个目标框。约 70 / 20 / 10 分为训练、验证、测试；小数据集比例会调整。连拍图片请先去除近似图像，避免跨组泄漏。首次使用预训练模型需要联网下载。",
+    "Requires 3 reviewed images and 1 object. Approximately 70 / 20 / 10 train / validation / test; adjusted for small sets. Remove near-duplicate burst images before splitting. Pretrained weights require an initial download."
+  ],
+  "startTraining": [
+    "開始訓練",
+    "开始训练",
+    "Start training"
+  ],
+  "jobMonitor": [
+    "任務監控",
+    "任务监控",
+    "Run monitor"
+  ],
+  "live": [
+    "即時更新",
+    "实时更新",
+    "LIVE"
+  ],
+  "jobHistory": [
+    "任務紀錄",
+    "任务记录",
+    "Run history"
+  ],
+  "noActiveJob": [
+    "尚未開始任務",
+    "尚未开始任务",
+    "No run selected"
+  ],
+  "cancelJob": [
+    "停止任務",
+    "停止任务",
+    "Stop run"
+  ],
+  "logs": [
+    "查看紀錄",
+    "查看日志",
+    "View log"
+  ],
+  "queued": [
+    "排隊中",
+    "排队中",
+    "Queued"
+  ],
+  "running": [
+    "執行中",
+    "运行中",
+    "Running"
+  ],
+  "completed": [
+    "已完成",
+    "已完成",
+    "Completed"
+  ],
+  "failed": [
+    "失敗",
+    "失败",
+    "Failed"
+  ],
+  "cancelled": [
+    "已停止",
+    "已停止",
+    "Stopped"
+  ],
+  "interrupted": [
+    "上次執行已中斷",
+    "上次运行已中断",
+    "Interrupted"
+  ],
+  "autolabel": [
+    "自動標註",
+    "自动标注",
+    "Auto-label"
+  ],
+  "training": [
+    "模型訓練",
+    "模型训练",
+    "Training"
+  ],
+  "loading_engine": [
+    "載入 YOLO 引擎…",
+    "加载 YOLO 引擎…",
+    "Loading YOLO engine…"
+  ],
+  "evaluating": [
+    "使用獨立測試集評估…",
+    "使用独立测试集评估…",
+    "Evaluating on held-out test data…"
+  ],
+  "training_done": [
+    "訓練與測試完成",
+    "训练与测试完成",
+    "Training and testing complete"
+  ],
+  "autolabel_done": [
+    "候選框已產生，請人工審核",
+    "候选框已生成，请人工审核",
+    "Suggestions ready for human review"
+  ],
+  "worker_stopped": [
+    "背景程序意外結束，請查看紀錄",
+    "后台进程意外结束，请查看日志",
+    "Worker exited unexpectedly. See the log."
+  ],
+  "launch_failed": [
+    "無法啟動背景程序",
+    "无法启动后台进程",
+    "Could not start worker"
+  ],
+  "modelsEyebrow": [
+    "版本與交付",
+    "版本与交付",
+    "VERSIONS & DELIVERY"
+  ],
+  "modelsTitle": [
+    "每個模型，都有來歷。",
+    "每个模型，都有来源。",
+    "Every model has a story."
+  ],
+  "modelsDesc": [
+    "比較測試結果，為模型命名，連同訓練資訊一起匯出。",
+    "比较测试结果，为模型命名，连同训练信息一起导出。",
+    "Inspect test metrics and export named models with their training history."
+  ],
+  "importModel": [
+    "匯入 .pt 模型",
+    "导入 .pt 模型",
+    "Import .pt model"
+  ],
+  "noModels": [
+    "還沒有模型版本",
+    "还没有模型版本",
+    "No model versions yet"
+  ],
+  "noModelsHint": [
+    "完成第一次訓練，或匯入既有的偵測模型。",
+    "完成第一次训练，或导入已有的检测模型。",
+    "Train your first model or import an existing detection model."
+  ],
+  "exportModel": [
+    "命名與匯出",
+    "命名与导出",
+    "Name & export"
+  ],
+  "imported": [
+    "外部匯入",
+    "外部导入",
+    "Imported"
+  ],
+  "trained": [
+    "本機訓練",
+    "本地训练",
+    "Trained locally"
+  ],
+  "metricsUnavailable": [
+    "匯入模型尚無本機測試指標",
+    "导入模型暂无本地测试指标",
+    "No local test metrics for this imported model"
+  ],
+  "testMetrics": [
+    "獨立測試集指標",
+    "独立测试集指标",
+    "HELD-OUT TEST METRICS"
+  ],
+  "precision": [
+    "精準率",
+    "精确率",
+    "Precision"
+  ],
+  "recall": [
+    "召回率",
+    "召回率",
+    "Recall"
+  ],
+  "map50": [
+    "mAP50",
+    "mAP50",
+    "mAP50"
+  ],
+  "map50_95": [
+    "mAP50–95",
+    "mAP50–95",
+    "mAP50–95"
+  ],
+  "exportName": [
+    "匯出檔名（不含副檔名）",
+    "导出文件名（不含扩展名）",
+    "Export filename (without extension)"
+  ],
+  "exportHint": [
+    "ZIP 包含 .pt 權重及來源資訊；本機訓練版本另附類別、資料快照清單、參數與訓練報表。",
+    "ZIP 包含 .pt 权重及来源信息；本地训练版本另附类别、数据快照清单、参数与训练报告。",
+    "ZIP includes .pt weights and provenance. Locally trained versions also include classes, dataset manifest, parameters and reports."
+  ],
+  "downloadPackage": [
+    "下載模型套件",
+    "下载模型包",
+    "Download model package"
+  ],
+  "footer": [
+    "圖片 → 標註 → 訓練 → 模型",
+    "图片 → 标注 → 训练 → 模型",
+    "Images → Labels → Training → Models"
+  ],
+  "projectDialogHint": [
+    "每個產品使用獨立的圖片、類別與模型版本。",
+    "每个产品使用独立的图片、类别与模型版本。",
+    "Keep each product’s images, classes and models in its own project."
+  ],
+  "projectNameExample": [
+    "例如：散熱片組裝檢測",
+    "例如：散热片组装检测",
+    "e.g. Heat sink assembly inspection"
+  ],
+  "stationExample": [
+    "例如：ST02",
+    "例如：ST02",
+    "e.g. ST02"
+  ],
+  "classNames": [
+    "類別名稱（每行一個）",
+    "类别名称（每行一个）",
+    "Class names (one per line)"
+  ],
+  "classNamesHint": [
+    "建立後類別順序固定，避免既有標註與模型錯配。請使用與模型及檢測站點一致的名稱。",
+    "创建后类别顺序固定，避免已有标注与模型错配。请使用与模型及检测站点一致的名称。",
+    "Class order is fixed after creation to preserve label IDs. Match names to your models and inspection station."
+  ],
+  "createProject": [
+    "建立並開始",
+    "创建并开始",
+    "Create project"
+  ],
+  "autoHint": [
+    "對未標註、草稿與待審核圖片產生候選框；不覆蓋人工框與已審核圖片。",
+    "为未标注、草稿与待审核图片生成候选框；不覆盖人工框与已审核图片。",
+    "Generate suggestions for unlabeled, draft and pending images. Manual boxes and reviewed images are preserved."
+  ],
+  "selectModel": [
+    "選擇模型",
+    "选择模型",
+    "Select model"
+  ],
+  "confidence": [
+    "信心門檻",
+    "置信度阈值",
+    "Confidence threshold"
+  ],
+  "classMappingHint": [
+    "依類別名稱對應，不直接套用類別編號。預訓練模型只能協助辨識其已知類別；自訂零件需先人工標註並訓練。",
+    "按类别名称匹配，不直接套用类别编号。预训练模型只能辅助识别其已知类别；自定义零件需先人工标注并训练。",
+    "Classes are matched by name, never by numeric ID. Pretrained models only recognize known classes; custom parts need initial manual labels and training."
+  ],
+  "startAuto": [
+    "開始產生候選框",
+    "开始生成候选框",
+    "Generate suggestions"
+  ],
+  "importProgress": [
+    "匯入中 {current}/{total}…",
+    "导入中 {current}/{total}…",
+    "Importing {current}/{total}…"
+  ],
+  "importDone": [
+    "已匯入 {count} 張；略過 {duplicates} 張重複圖片",
+    "已导入 {count} 张；跳过 {duplicates} 张重复图片",
+    "Imported {count}; skipped {duplicates} duplicates"
+  ],
+  "modelImported": [
+    "模型已匯入",
+    "模型已导入",
+    "Model imported"
+  ],
+  "projectCreated": [
+    "專案已建立",
+    "项目已创建",
+    "Project created"
+  ],
+  "jobStarted": [
+    "任務已啟動",
+    "任务已启动",
+    "Run started"
+  ],
+  "emptyReviewConfirm": [
+    "此圖片沒有物件框，要確認為「無目標」嗎？",
+    "此图片没有目标框，确认设为“无目标”吗？",
+    "This image has no boxes. Confirm it contains no target objects?"
+  ],
+  "discardProposalsConfirm": [
+    "還有 AI 候選框未加入，確認捨棄並儲存目前人工標註？",
+    "还有 AI 候选框未添加，确认丢弃并保存当前人工标注？",
+    "Some AI suggestions have not been added. Discard them and save the current manual labels?"
+  ],
+  "cancelConfirm": [
+    "確定停止目前任務？未完成的訓練不會註冊為模型版本。",
+    "确定停止当前任务？未完成的训练不会注册为模型版本。",
+    "Stop this run? Incomplete training will not be registered as a model version."
+  ],
+  "selectProjectFirst": [
+    "請先建立或選擇專案",
+    "请先创建或选择项目",
+    "Create or select a project first"
+  ],
+  "uploading": [
+    "處理中…",
+    "处理中…",
+    "Working…"
+  ],
+  "revision_conflict": [
+    "此圖片已被其他工作更新。請重新整理，再重新編輯。",
+    "此图片已被其他任务更新。请刷新后重新编辑。",
+    "This image changed in another task. Refresh before editing again."
+  ],
+  "need_reviewed_images": [
+    "至少需要 3 張已審核圖片",
+    "至少需要 3 张已审核图片",
+    "At least 3 reviewed images are required"
+  ],
+  "need_positive_labels": [
+    "至少需要 1 個已審核物件框",
+    "至少需要 1 个已审核目标框",
+    "At least one reviewed object is required"
+  ],
+  "engine_missing": [
+    "請先執行 setup.ps1 -WithYolo 安裝 YOLO 引擎並重新啟動",
+    "请先运行 setup.ps1 -WithYolo 安装 YOLO 引擎并重新启动",
+    "Run setup.ps1 -WithYolo to install the YOLO engine, then restart"
+  ],
+  "gpu_unavailable": [
+    "目前 Python 環境無法使用 CUDA，請選 CPU 或安裝相容的 GPU 版本 PyTorch",
+    "当前 Python 环境无法使用 CUDA，请选 CPU 或安装兼容的 GPU 版 PyTorch",
+    "CUDA is unavailable in this Python environment. Select CPU or install a compatible GPU PyTorch build"
+  ],
+  "class_mismatch": [
+    "模型類別與專案沒有相符名稱",
+    "模型类别与项目没有匹配名称",
+    "No model class names match this project"
+  ],
+  "detection_only": [
+    "目前僅支援物件偵測模型",
+    "目前仅支持目标检测模型",
+    "Only object detection models are supported"
+  ],
+  "engine_error": [
+    "YOLO 執行失敗，請查看任務紀錄",
+    "YOLO 运行失败，请查看任务日志",
+    "YOLO failed. See the run log"
+  ],
+  "job_busy": [
+    "已有任務正在執行，請等待或停止後再試",
+    "已有任务正在运行，请等待或停止后重试",
+    "A run is already active. Wait or stop it first"
+  ],
+  "no_pending_images": [
+    "沒有需要自動標註的圖片",
+    "没有需要自动标注的图片",
+    "No images are eligible for auto-labeling"
+  ],
+  "invalid_classes": [
+    "請輸入有效且不重複的類別名稱",
+    "请输入有效且不重复的类别名称",
+    "Enter valid, unique class names"
+  ],
+  "duplicate_classes": [
+    "類別名稱不能重複",
+    "类别名称不能重复",
+    "Class names must be unique"
+  ],
+  "invalid_image": [
+    "不支援或無法讀取的圖片",
+    "不支持或无法读取的图片",
+    "Unsupported or unreadable image"
+  ],
+  "image_too_large": [
+    "圖片超過 4,000 萬像素限制",
+    "图片超过 4,000 万像素限制",
+    "Image exceeds the 40-megapixel limit"
+  ],
+  "invalid_model": [
+    "請選擇有效的 .pt 偵測模型",
+    "请选择有效的 .pt 检测模型",
+    "Choose a valid .pt detection model"
+  ],
+  "upload_too_large": [
+    "檔案超過上傳大小限制",
+    "文件超过上传大小限制",
+    "File exceeds the upload limit"
+  ],
+  "invalid_boxes": [
+    "標註框座標不正確",
+    "标注框坐标不正确",
+    "Invalid box coordinates"
+  ],
+  "invalid_parameters": [
+    "請檢查訓練參數",
+    "请检查训练参数",
+    "Check the training parameters"
+  ],
+  "invalid_name": [
+    "請輸入有效名稱",
+    "请输入有效名称",
+    "Enter a valid name"
+  ],
+  "invalid_request": [
+    "請求格式錯誤",
+    "请求格式错误",
+    "Invalid request"
+  ],
+  "invalid_token": [
+    "工作階段已變更，請重新整理",
+    "会话已变更，请刷新",
+    "Session changed. Refresh the page"
+  ],
+  "invalid_host": [
+    "本機服務網址不正確",
+    "本地服务网址不正确",
+    "Invalid local service address"
+  ],
+  "not_found": [
+    "找不到指定項目",
+    "找不到指定项目",
+    "Item not found"
+  ],
+  "invalid_path": [
+    "路徑不正確",
+    "路径不正确",
+    "Invalid path"
+  ],
+  "internal_error": [
+    "發生錯誤，請查看啟動視窗",
+    "发生错误，请查看启动窗口",
+    "An error occurred. See the server console"
+  ],
+  "job_finished": [
+    "任務已結束",
+    "任务已结束",
+    "The run has already finished"
+  ],
+  "model_missing": [
+    "訓練未產生模型權重",
+    "训练未生成模型权重",
+    "Training did not produce model weights"
+  ],
+  "networkError": [
+    "無法連線至本機服務，請確認程式仍在執行",
+    "无法连接本地服务，请确认程序仍在运行",
+    "Cannot reach the local service. Check that it is running"
+  ],
+  "importFailed": [
+    "{name}：{error}",
+    "{name}：{error}",
+    "{name}: {error}"
+  ],
+  "noMatchingImages": [
+    "沒有符合條件的圖片",
+    "没有符合条件的图片",
+    "No matching images"
+  ],
+  "proposalsAdded": [
+    "已加入候選框，請確認後儲存",
+    "已添加候选框，请确认后保存",
+    "Suggestions added. Review and save."
+  ],
+  "processedSummary": [
+    "已處理 {processed} 張；略過已變更圖片 {skipped} 張",
+    "已处理 {processed} 张；跳过已修改图片 {skipped} 张",
+    "Processed {processed}; skipped {skipped} changed images"
+  ],
+  "cancelPending": [
+    "正在停止…",
+    "正在停止…",
+    "Stopping…"
+  ]
+}

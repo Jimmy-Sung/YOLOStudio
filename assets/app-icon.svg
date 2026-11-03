@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>YOLO Studio</title>
+  <desc>An image on a white drawing board, with a mint bounding box, resize handles and a mouse pointer.</desc>
+  <rect x="48" y="48" width="928" height="928" rx="216" fill="#142e33"/>
+  <rect x="52" y="52" width="920" height="920" rx="212" fill="none" stroke="#285054" stroke-width="8"/>
+  <rect x="176" y="202" width="688" height="636" rx="64" fill="#0a2228"/>
+  <rect x="160" y="178" width="688" height="636" rx="64" fill="#f0faf6"/>
+  <path d="M224 178H784Q848 178 848 242V290H160V242Q160 178 224 178Z" fill="#d2e9e1"/>
+  <g fill="#7aa69b"><circle cx="224" cy="236" r="13"/><circle cx="270" cy="236" r="13"/><circle cx="316" cy="236" r="13"/></g>
+  <rect x="212" y="332" width="584" height="420" rx="24" fill="#b8d8ce"/>
+  <circle cx="670" cy="416" r="42" fill="#f4cc75"/>
+  <path d="M212 650L368 454L572 704L662 582L796 716V728Q796 752 772 752H236Q212 752 212 728Z" fill="#669c8b"/>
+  <path d="M212 708L404 566L638 752H236Q212 752 212 728Z" fill="#467d70"/>
+  <rect x="302" y="410" width="340" height="276" rx="2" fill="#0bbc89" fill-opacity="0.1" stroke="#087f75" stroke-width="25"/>
+  <g fill="#effff8" stroke="#087f75" stroke-width="12">
+    <rect x="279" y="387" width="46" height="46" rx="6"/>
+    <rect x="619" y="387" width="46" height="46" rx="6"/>
+    <rect x="279" y="663" width="46" height="46" rx="6"/>
+    <rect x="619" y="663" width="46" height="46" rx="6"/>
+  </g>
+  <path d="M649 647L674 830L721 785L757 851L804 825L768 760L831 747Z" fill="#f6fff9" stroke="#142e33" stroke-width="15" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,13 @@
+.venv/
+data/
+tmp/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+*.log
+.pytest_cache/
+startup-error.log
+dist/
+build/
+output/
