@@ -1,0 +1,79 @@
+ACADEMIC & NON-COMMERCIAL RESEARCH LICENSE
+學術研究與非商業使用授權條款
+
+Copyright (c) 2026 Jimmy-Sung. All rights reserved.
+版權所有 (c) 2026 Jimmy-Sung。保留所有權利。
+
+================================================================================
+ENGLISH VERSION
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, documentation, and associated build files (the "Software"),
+to use, study, copy, modify, merge, and distribute the Software, subject to
+the following mandatory conditions:
+
+1. ACADEMIC & RESEARCH USE ONLY:
+   The Software is provided strictly for academic research, educational, 
+   teaching, evaluation, and personal non-commercial study purposes.
+
+2. STRICT PROHIBITION ON COMMERCIAL USE:
+   No commercial use, direct or indirect, is permitted under this license.
+   "Commercial Use" includes, but is not limited to:
+   a) Selling, licensing, renting, or leasing the Software, either standalone
+      or bundled with other products or services.
+   b) Using the Software in commercial factory production lines, automated
+      inspection systems, enterprise commercial operations, or billable services.
+   c) Incorporating any portion of the Software into proprietary software,
+      cloud platforms, SaaS applications, or commercial SDKs.
+   Any commercial organization or individual wishing to use the Software for
+   commercial purposes must obtain prior written permission and an appropriate
+   commercial license from the copyright holder (Jimmy-Sung).
+
+3. ATTRIBUTION & CITATION:
+   All copies, substantial portions, or derivative works of the Software must
+   retain the above copyright notice, this list of conditions, and the original
+   repository URL (https://github.com/Jimmy-Sung/LabelStudio).
+   If used in academic publications, technical reports, or presentations,
+   proper citation and reference to the project and author are required.
+
+4. COPYLEFT FOR DERIVATIVES:
+   Any derivative works, adaptations, or modifications based on the Software
+   must be distributed under the same terms of this Academic & Non-Commercial
+   Research License.
+
+5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY:
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+   ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+中文版（繁體中文條款說明）
+================================================================================
+
+本授權條款授予任何取得本軟體、相關文件及安裝組建檔案（以下統稱「本軟體」）之個人或機構，在遵守下列強制約束條件下，享有免費使用、研讀、重製、修改及散布之權利：
+
+一、 僅限學術與教育用途：
+   本軟體嚴格限定用於學術研究、學校教育、教學展示、個人研習及非營利性質之技術驗證。
+
+二、 嚴格禁止任何商業使用（不可商用）：
+   未獲得版權所有者（Jimmy-Sung）明確書面授權前，任何直接或間接之商業營利行為均在嚴格禁止之列。
+   「商業使用」包括但不限於：
+   1. 販售、授權、轉授權、出租或出借本軟體，或將其打包附帶於任何收費商品或服務中。
+   2. 將本軟體或其衍生模組部署於工廠生產線、企業營運系統、自動化檢測機台或計費商業服務中。
+   3. 將本軟體之任何程式碼、架構或核心邏輯併入專利軟體、收費雲端平台、SaaS 服務或商業套件中。
+   任何企業法人或營利機構若欲將本軟體應用於商業生產環境，必須事先取得原作者之正式授權。
+
+三、 署名與文獻引用要求：
+   任何重製、部分引用或基於本軟體之衍生版本，均必須完整保留本版權聲明、授權條款全文及專案原始儲存庫連結（https://github.com/Jimmy-Sung/LabelStudio）。
+   凡於學術論文、期刊、技術研討會、專案報告或教材中引用本軟體者，應當載明軟體名稱及原作者署名。
+
+四、 衍生版本維持非商用：
+   任何基於本軟體所開發之衍生作品、修改版或改進模組，必須同樣沿用本學術非商業授權協議進行發布，不得將其變更為閉源或商業專有授權。
+
+五、 免責條款：
+   本軟體係依「現狀」（AS-IS）原則提供，作者不提供任何明示或默示之保證（包括但不限於適銷性、特定用途適用性及未侵權之保證）。在任何情況下，作者均不對因使用或無法使用本軟體所衍生之任何損害、數據遺失、硬體故障或營運中斷承擔任何法律與賠償責任。

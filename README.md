@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12-brightgreen.svg)](https://python.org)
 [![UI](https://img.shields.io/badge/UI-PySide6%20%2F%20Qt%20Widgets-orange.svg)](https://doc.qt.io/qtforpython/)
 [![Engine](https://img.shields.io/badge/Engine-Ultralytics%20YOLO%20%2B%20PyTorch-red.svg)](https://github.com/ultralytics/ultralytics)
-[![License](https://img.shields.io/badge/License-Non--Commercial%20%2F%20Academic%20Only-lightgrey.svg)](#-版權與免責聲明-license--terms)
+[![License](https://img.shields.io/badge/License-Academic%20Non--Commercial-blue.svg)](LICENSE)
 
 **YOLO Studio (LabelStudio)** 是一款專為 Windows 打造的輕量化、高效能 YOLO 原生桌面工作台。整合了**專案資料集管理**、**人工標註**、**AI 輔助標註**、**YOLO 模型訓練**、**測試評估指標計算**以及**模型匯出**之完整流程。
 
@@ -83,13 +83,16 @@ powershell -ExecutionPolicy Bypass -File .\setup.ps1 -WithYolo
 
 ---
 
-## ⚠️ 版權與免責聲明 (License & Terms)
+## ⚠️ 版權與授權協議 (Academic & Non-Commercial License)
 
-本專案之程式碼、架構設計與隨附安裝工具僅供**個人學習、學術研究、教學展示與技術參考**使用：
+本專案之程式碼、架構設計與隨附安裝工具採用 **學術研究與非商業使用授權協議（Academic & Non-Commercial Research License）**：
 
-1. **禁止商用**：本軟體及其衍生物嚴禁直接或間接用於任何商業營利行為、企業生產線收費服務或未經授權之商業產品集成。
-2. **免責條款**：本軟體按「現狀」（As-Is）提供，作者不對使用本軟體所產生之任何數據遺失、設備故障或商業損失承擔任何法律責任。
-3. 若需在學術論文、研究報告或展示中引用本專案，請註明專案出處來源。
+1. **嚴格禁止商用**：本軟體及其任何模組、衍生物嚴禁直接或間接用於任何商業營利行為、企業生產線檢測收費服務或未經授權之商業產品集成。
+2. **學術與教育開放**：允許並歡迎於個人研習、學術論文研究、學校教學與技術概念驗證中自由使用與修改。
+3. **署名要求**：在學術論文、技術報告或展示中引用本專案時，請註明出處與原作者署名。
+4. **免責聲明**：本軟體按「現狀」（As-Is）提供，作者不承擔因使用本軟體衍生之任何責任。
+
+完整授權條款全文請參閱：[`LICENSE`](LICENSE)
 
 ---
 
