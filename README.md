@@ -1,6 +1,7 @@
 # YOLO Studio (LabelStudio) · Windows 原生視覺標註與模型訓練工作台
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-blue.svg)](https://github.com/Jimmy-Sung/LabelStudio)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-blue.svg)](https://github.com/Jimmy-Sung/YOLOStudio)
+[![Release](https://img.shields.io/badge/Release-v0.3.1-success.svg)](https://github.com/Jimmy-Sung/YOLOStudio/releases/tag/v0.3.1)
 [![Python](https://img.shields.io/badge/Python-3.12-brightgreen.svg)](https://python.org)
 [![UI](https://img.shields.io/badge/UI-PySide6%20%2F%20Qt%20Widgets-orange.svg)](https://doc.qt.io/qtforpython/)
 [![Engine](https://img.shields.io/badge/Engine-Ultralytics%20YOLO%20%2B%20PyTorch-red.svg)](https://github.com/ultralytics/ultralytics)
@@ -12,19 +13,97 @@
 
 ---
 
-## 軟體下載 (Release Downloads)
+## 📥 軟體下載與安裝圖文指南 (Download & Installation)
 
-我們提供編譯完成的 Windows 獨立安裝包（免預先安裝 Python 與依賴套件）：
+> 🔗 **官方最新版本下載入口**：
+> 👉 **[GitHub Releases 下載頁面 (v0.3.1)](https://github.com/Jimmy-Sung/YOLOStudio/releases/tag/v0.3.1)**
+> （或查看歷史發布版本：[All Releases](https://github.com/Jimmy-Sung/YOLOStudio/releases)）
 
-> 📦 **安裝包下載頁面**：請至 [GitHub Releases](https://github.com/Jimmy-Sung/LabelStudio/releases) 下載最新安裝檔。
+---
 
-| 版本類型 | 適用環境 | 檔案組成與特點 | 推薦對象 |
+### 1. 該選哪一個版本？（版本選擇導引）
+
+```mermaid
+flowchart TD
+    Start["準備下載 YOLO Studio"] --> CheckGPU{"電腦是否有 NVIDIA 獨立顯卡？<br>(GeForce / RTX / GTX 系列)"}
+    CheckGPU -- "有 (推薦)" --> GPU["下載【Auto-CUDA (GPU 加速版)】<br>⚡ 訓練速度提升數十倍，支援 CUDA 12.8 / 12.6 自動切換"]
+    CheckGPU -- "沒有 / 一般文書筆電" --> CPU["下載【CPU 通用版】<br>💻 單一安裝檔 (~330 MB)，隨裝即用，免任何設定"]
+```
+
+| 版本類型 | 檔案大小 | 適用環境 | 特點與說明 |
 | :--- | :--- | :--- | :--- |
-| **Auto-CUDA (GPU 版)** | 具備 NVIDIA GeForce / RTX / GTX 獨立顯示卡之 Windows 電腦 | 包含主安裝程式與離線分片檔（`.exe` + `.bin`）。<br>內建 CUDA 12.6 與 12.8 雙離線加速引擎，自動偵測顯卡架構調度最適引擎，支援無 GPU 時自動平滑降級為 CPU。 | **強烈推薦**（訓練速度提升數十倍，支援混合精度 AMP） |
-| **CPU 通用版** | 一般筆電、無 NVIDIA 獨立顯卡之電腦 | 單一安裝執行檔（`YOLO-Studio-x.x.x-Windows-x64-CPU-Setup.exe`，約 330 MB）。<br>隨裝即用，免任何環境配置。 | 一般測試、辦公電腦或輕量數據標註 |
+| **🚀 Auto-CUDA (GPU 加速版)** | 約 5.5 GB<br>（分片壓縮） | 配備 NVIDIA 顯卡之 Windows 電腦 | 內建 CUDA 12.6 與 12.8 雙離線加速深度學習引擎。安裝時會自動偵測顯卡架構分發最速引擎；無相容 GPU 時自動平滑降級為 CPU。 |
+| **💻 CPU 通用版** | 約 333 MB<br>（單一檔案） | 一般辦公筆電、無獨立顯卡之電腦 | 單一安裝檔隨裝即用，免安裝 Python、免設定 CUDA 環境，適合輕量數據標註與基本驗證。 |
 
-> **GPU 安裝包使用說明**：
-> 請將 `YOLO-Studio-*-AutoCUDA-Setup.exe` 與所有分片檔案（`*-Setup-1.bin` 至 `*-Setup-4.bin`）下載放置於**同一資料夾**中，雙擊執行 `.exe` 即可自動完成解壓與安裝。
+---
+
+### 2. 🚀 GPU (Auto-CUDA) 版詳細安裝教學
+
+由於 GPU 加速版包含完整的 PyTorch 與 CUDA 12.6 / 12.8 離線深度學習引擎（高達 5.5 GB），而 GitHub 單一檔案上限為 2 GB，因此安裝包採用了標準的多磁碟分片（Disk Spanning）封裝。
+
+#### 步驟一：下載全部 5 個安裝檔
+請前往 [Releases 頁面](https://github.com/Jimmy-Sung/YOLOStudio/releases/tag/v0.3.1) 的 **Assets** 區塊，下載以下 **全部 5 個檔案**：
+1. `YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup.exe` （主安裝引導程式，約 6.8 MB）
+2. `YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-1.bin` （分片 1，約 1.55 GB）
+3. `YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-2.bin` （分片 2，約 1.56 GB）
+4. `YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-3.bin` （分片 3，約 1.56 GB）
+5. `YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-4.bin` （分片 4，約 804 MB）
+
+*(註：附帶的 `.sha256` 檔案為完整性驗證碼，非安裝必要，可自由選擇是否下載)*
+
+#### 步驟二：確認 5 個檔案放置於【同一個資料夾】
+> ⚠️ **關鍵步驟**：下載完成後，請務必確認這 5 個檔案都在**相同的目錄（例如「下載」資料夾或自訂資料夾）**中，如下圖所示：
+
+```text
+📁 下載目錄（例如：D:\YOLOStudio_Download\）
+ ├── 🚀 YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup.exe   <=== 【雙擊執行此安裝檔】
+ ├── 📦 YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-1.bin  (分片數據)
+ ├── 📦 YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-2.bin  (分片數據)
+ ├── 📦 YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-3.bin  (分片數據)
+ └── 📦 YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup-4.bin  (分片數據)
+```
+
+#### 步驟三：雙擊執行 `.exe` 啟動安裝精靈
+- 直接雙擊 **`YOLO-Studio-0.3.1-Windows-x64-AutoCUDA-Setup.exe`**。
+- 安裝精靈會**自動讀取同目錄下的 4 個 `.bin` 分片**進行解壓縮，您完全不需要手動解開 `.bin` 檔案。
+- 依照畫面提示點擊「下一步」完成安裝。
+
+#### 步驟四：安裝程式幕後運作原理（自動硬體分發）
+安裝過程中，內建的硬體檢測程式會自動檢測您的電腦：
+```mermaid
+flowchart LR
+    A["執行安裝程式"] --> B["自動偵測本機 GPU 架構"]
+    B --> C{"檢測運算能力與驅動"}
+    C -- "全新世代架構 (RTX 40/50 系列)" --> D["自動配置 CUDA 12.8 極速引擎"]
+    C -- "主流世代架構 (RTX 20/30 系列等)" --> E["自動配置 CUDA 12.6 穩定引擎"]
+    C -- "無相容 GPU / 驅動不符" --> F["自動配置 CPU 備援引擎"]
+    D --> G["安裝完成，桌面生成捷徑 🎉"]
+    E --> G
+    F --> G
+```
+- **免手動安裝 CUDA Toolkit**：安裝包已自帶完整相容庫。
+- **免設定環境變數**：不污染系統既有 Python 或 CUDA PATH。
+- **隨開即訓**：安裝完成後直接從桌面捷徑開啟即可在 GPU 上全速訓練！
+
+---
+
+### 3. 💻 CPU 通用版安裝教學
+
+若您的電腦無 NVIDIA 顯示卡，或僅需進行圖片標註與輕量測試：
+1. 至 [Releases 頁面](https://github.com/Jimmy-Sung/YOLOStudio/releases/tag/v0.3.1) 下載單一檔案：
+   - `YOLO-Studio-0.3.1-Windows-x64-CPU-Setup.exe`（約 333 MB）
+2. 下載後直接雙擊執行安裝即可，隨裝隨用！
+
+---
+
+### 4. 常見問題解答 (FAQ)
+
+- **Q1：點擊 `.bin` 檔案提示「無法開啟此檔案」怎麼辦？**
+  - **A**：`.bin` 檔案是安裝包的資料壓縮分片，**請勿直接點擊開啟它**。只要把它們跟 `Setup.exe` 放在同一個資料夾，直接雙擊執行 `Setup.exe`，安裝精靈就會自動讀取它們。
+- **Q2：安裝時提示缺少 `.bin` 檔案？**
+  - **A**：請檢查是否 4 個 `.bin` 檔案（`Setup-1.bin` ～ `Setup-4.bin`）皆已下載完畢，且檔案名稱沒有被瀏覽器重新命名（例如尾端多了 `(1)`）。
+- **Q3：需要先安裝 Python 或 PyTorch 嗎？**
+  - **A**：完全不需要。本安裝包已內建獨立隔離的執行環境，電腦無需預裝任何依賴套件。
 
 ---
 
@@ -61,8 +140,8 @@
 
 ### 1. 取得專案原始碼
 ```bash
-git clone https://github.com/Jimmy-Sung/LabelStudio.git
-cd LabelStudio
+git clone https://github.com/Jimmy-Sung/YOLOStudio.git
+cd YOLOStudio
 ```
 
 ### 2. 環境安裝 (Windows PowerShell)
@@ -98,4 +177,4 @@ powershell -ExecutionPolicy Bypass -File .\setup.ps1 -WithYolo
 
 ## 聯絡與支援
 
-如有問題回報或學術交流需求，歡迎至 [GitHub Issues](https://github.com/Jimmy-Sung/LabelStudio/issues) 提出討論。
+如有問題回報或學術交流需求，歡迎至 [GitHub Issues](https://github.com/Jimmy-Sung/YOLOStudio/issues) 提出討論。
